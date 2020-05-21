@@ -1,0 +1,119 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: FiraGO, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.control-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  height: 728px;
+  width: 300px;
+}
+
+/* Dark-Aqua Style */
+.here-da {
+  color: #fff;
+  border: none;
+  background: radial-gradient(circle at 100% 50%,#a4c3ff,#48dad0); 
+}
+
+.here-da:hover {
+  color: #48dad0;
+  border: none;
+  background: #fff; 
+}
+
+.here-da-2 {
+  color: #48dad0;
+  border: 1px solid #48dad0;
+}
+
+.here-da-2:hover {
+  color: #fff;
+  border: none;
+  background: radial-gradient(circle at 100% 50%,#a4c3ff,#48dad0); 
+}
+
+.btn-here-da {
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+  margin: 10px;
+  background: radial-gradient(circle at 100% 50%,#a4c3ff,#48dad0); 
+}
+
+.btn-here-da:hover {
+  background: #fff;
+  color: #a4c3ff;
+  cursor:pointer;
+  border: 1px solid #a4c3ff;
+}
+
+.bg-here-da {
+  background-color: #48dad0!important;
+}
+
+.bg-gradient-here-da {
+  height:6px;
+  background: radial-gradient(circle at 100% 50%,#a4c3ff,#48dad0);  
+}
+
+
+.fill-here-da {
+  fill: #48dad0;
+}
+
+.text-here-da {
+  color: #48dad0;
+}
+
+.pres {
+  margin-left: 20px; 
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: #6d7178;
+}
+
+.scroll {
+  margin-top:10px;
+  height: 290px;
+  border-radius: 5px;
+  overflow-y: auto;
+  border:1px solid #a4c3ff;
+}
+#search{
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.suggest-item{
+  background-color: #fff;
+  border-bottom: 3px solid #a4c3ff;
+  padding: 10px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+#suggestions-list {
+  max-height: 500px;
+  overflow: auto;
+}
